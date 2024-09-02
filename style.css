@@ -1,0 +1,144 @@
+@media screen and (max-width: 1728px) {
+    body{
+        background-color: hsl(0, 0%, 95%);
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        margin: 100px;
+    }
+    .one{
+        width: 350px;
+        height: 600px;
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .two{
+        width: 350px;
+        height: 600px;
+        background-color: hsl(184, 100%, 22%);
+    }
+    .three{
+        width: 350px;
+        height: 600px;
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 30px;
+        padding-right: 30px;
+    }
+    h1{
+        margin-top: 50px;
+        margin-left: 30px;
+        padding-right: 30px;
+        color: white;
+        font-size: 50px;
+    }
+    p{
+        margin-top: 50px;
+        margin-left: 30px;
+        padding-right: 30px;
+        font-size: 27px;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    button{
+        border: 2px solid;
+        background-color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 50px;
+        margin-left: 30px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .hovee{
+        color: hsl(31, 77%, 52%);
+        margin-top: 50px;
+    }
+    .hove{
+        color: hsl(184, 100%, 22%);
+        margin-top: 50px;
+    }
+    .hoves{
+        color: hsl(179, 100%, 13%);
+        margin-top: 23px;
+    }
+    button:hover{
+        background-color: transparent;
+        border-color: white;
+        color: white;
+    }
+    .attribution{
+        margin-top: -50px;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .attribution{
+        display: none;
+    }
+    .one{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 320px;
+    }
+    .two{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 320px;
+    }
+    .three{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 320px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .attribution{
+        display: none;
+    }
+    .one{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 320px;
+    }
+    .two{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 320px;
+    }
+    .three{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 320px;
+    }
+}
+/* This Is The End Of My Code, Please Do Not Manipulate This Code. */
